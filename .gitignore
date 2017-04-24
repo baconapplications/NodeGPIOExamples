@@ -37,6 +37,3 @@ jspm_packages
 .node_repl_history
 
 #start custom here
-typings/
-**/*.js
-**/*.map
