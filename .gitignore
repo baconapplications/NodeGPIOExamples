@@ -35,3 +35,8 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+#start custom here
+typings/
+**/*.js
+**/*.map
