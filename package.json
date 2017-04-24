@@ -1,0 +1,20 @@
+{
+  "name": "nodegpioexamples",
+  "version": "1.0.0",
+  "description": "Examples of using PI GPIO with Node",
+  "main": "index.js",
+  "scripts": {
+    "clean": "echo 'this will display an error on windows - feel free to ignore' && npm run clean:n",
+    "clean:n": "rimraf ./node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Randy Bacon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baconapplications/NodeGPIOExamples.git"
+    },
+  "dependencies": {
+      "rpi-gpio": "^0.8.1"
+  }
+}
